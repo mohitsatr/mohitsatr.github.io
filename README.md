@@ -3,6 +3,7 @@
 
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/mohitsatr)
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:Mohit.Sharma.atrrmohit@gmail.com)
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/mohitsatr)
 
 
 
