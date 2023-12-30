@@ -5,7 +5,7 @@
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:Mohit.Sharma.atrrmohit@gmail.com)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/mohitsatr)
 
-<img align="right" alt="img" src="[https://github.com/FernandoRoldan93/FernandoRoldan93/blob/master/cover_image.jpg](https://github.com/mohitsatr/mohitsatr/assets/89310870/5f087437-8788-4b57-890b-3012d807bc6d)" width="50%" height="auto" />
+<img align="right" alt="img" src="https://github.com/mohitsatr/mohitsatr/assets/89310870/5f087437-8788-4b57-890b-3012d807bc6d" width="50%" height="auto" />
 
 
 
