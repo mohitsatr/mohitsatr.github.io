@@ -29,3 +29,5 @@
 </p>
 
 
+<sub>Credits to: <br/>[bigchungus64](https://unsplash.com/@bigchungus64) for image 
+[FernandoRoldan](https://github.com/FernandoRoldan93/FernandoRoldan93/) for template</sub>
