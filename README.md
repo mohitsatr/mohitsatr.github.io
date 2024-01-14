@@ -1,5 +1,5 @@
 ### Hi there 👋 
-### This is Mohit Attry!
+### This is Mohit Attry! Im in exploring phrase , SO I'm trying out various things : Making apps , LINUX , Networking , IOT and teaching stuff on youtube
 
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/mohitsatr)
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:Mohit.Sharma.atrrmohit@gmail.com)
@@ -11,7 +11,7 @@
 
 
 #### 🌱 Projects I am currently working on: 
-- Learning to Make Android Development   
+- Learning to Make Android Apps    
   
 
 #### Extra-curriculum:
