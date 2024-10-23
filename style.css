@@ -22,3 +22,24 @@ header {
     margin-left: 25px; 
 }
 
+
+.card {
+    width: 340px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.profile-image img{
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position:relative;
+    margin-top: -75;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:100px;
+        border: 10px solid #fff;
+}
