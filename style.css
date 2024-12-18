@@ -1,45 +1,30 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
-    background-color: #f0f0f0;
+body {
+    width: 804px;
+    margin: auto;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5vw;
 }
-
-.logo {
-    font-size: 20px;
-    font-weight: bold;
+a, u {
+    text-decoration: none;
 }
-
-.horizontal-menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.horizontal-menu li {
-    display: inline-block;
-    margin-left: 25px; 
-}
-
-
+.circular-image {
+            width: 200px; /* Set the desired width */
+            height: 200px; /* Set the same height to make it a square */
+            border-radius: 50%; /* Makes the square image circular */
+            object-fit: cover; /* Ensures the image fits within the circle */
+            /* border: 2px solid #ccc; Optional: Add a border for styling */
+        }
 .card {
-    width: 340px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 20px auto
 }
 
-.profile-image img{
-    z-index: 1;
-    width: 120px;
-    height: 120px;
-    position:relative;
-    margin-top: -75;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius:100px;
-        border: 10px solid #fff;
+#socials {
+ list-style: none;
+ display: flex;
+ gap: 10px;
+ margin: 0;
+ padding: 0%;
 }
