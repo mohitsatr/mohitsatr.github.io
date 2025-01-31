@@ -21,6 +21,26 @@ a, u {
     margin: 20px auto
 }
 
+.construction-banner {
+      background: yellow;
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px;
+      text-align: center;
+      border: 3px solid black;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    .construction-text {
+      white-space: nowrap;
+      overflow: hidden;
+      display: block;
+    }
+
 #socials {
  list-style: none;
  display: flex;
