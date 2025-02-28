@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header class="title">
+
+        <div><a href="../profile.html">
+                <h1>Mohit Attry</h1>
+            </a></div>
+    </header>
+    <hr>
+    <div class="blog-content">
+        <h1>As of February 2025: brief reflections</h1>
+        <span class="date">2025-02-28</span>
+
+        <p>I worked on 5-6 issues in February. Most challenging
+            <a href="https://github.com/checkstyle/checkstyle/pull/16355/files">one</a> was related to Antlr Parser:
+        </p>
+        <pre style="background-color: whitesmoke;">
+            <code>
+        /**
+        * @see &lt;a href="..."&gt; some description &lt;/a&gt;
+        * @see &lt;a href="..."&gt;some description &lt;/a&gt;
+        */</code>
+        </pre>
+        <p> First <code>@see</code> Tag statement parses fine. In second one there is a parsing error because
+            a white space is missing and description begins immediately after <code>a</code> closing Tag. Modifying the
+            grammer for Javadoc to make whitespace optional did the
+            job.
+
+        <pre style="background-color: whitesmoke;">
+                <code>
+                | SEE_LITERAL (WS | NEWLINE | {!isNextJavadocTag()}? LEADING_ASTERISK)+
+                (htmlElement (WS | NEWLINE)* description?
+                | (reference | STRING)  (WS | NEWLINE)* ((WS | NEWLINE) description)?)</code>
+            </pre>
+
+        But it was not as obvious at first. the whole Antlr parsing stuff was new to me plus
+        when messing around with grammer, things
+        can quickly go downhill. So after lot of debugging and help from fellow
+        contributions and AIs I eventually had it working.
+        <br>
+        For Gsoc, I'm interested to work on improving Checkstyle's coverage on Google-style java
+        guidelines and on new OpenJdk java Style guidelines. I'll spending next few
+        weeks learning about these guidelines in detail and drafting my proposal.
+        </p>
+        <p>
+            I've also been trying to set-up Qemu emulator to play around with Riscv32i but there seems
+            to be some problems with gnu-toolchain for riscv. btw if you are trying learn about
+            Riscv ISA, check out this cool <a
+                href="https://www.youtube.com/playlist?list=PL3by7evD3F53Dz2RiB47Ztp9l_piGVuus">playlist</a> I found
+            after some resources-hopping.
+        </p>
+
+        <p>As for my Shakespeare marathon, I finished reading Othello and watched the 1995
+            production of it. It's become my favorite of all Shakespeare's plays I&#39;ve
+            read so far. Current rankings:
+        <ul>
+            <li>Othello</li>
+            <li>the one in which there are fairies and magic and a play at the end of it.</li>
+            <li>The Tempest</li>
+            <li>Measures for Measures</li>
+            <li>Romeo and Juliet</li>
+        </ul>
+        </p>
+        <p>I couldn&#39;t find Arden edition for this one. But I did get my hands on an
+            old pages-turned-yellow The Macmilian Shakespeare edition from my college library. It was pretty good too.
+            (At the back, last date of return was Augest 2004. I'm pretty sure I'm probably the first person
+            to actually <i>read</i> it in 20 years). As an bonus, enjoy this wonderful
+            <a href="https://youtu.be/lN4Kpj1PFKM?si=Mkv_2vQXXr85PUzd">lecture</a> on the play.
+        </p>
+        <p>I've also been enjoying Zadie Smith&#39;s White Teeth. Loved Samad Miah.</p>
+
+        <p>My marks are going all time low. 63% last semester and it&#39;s not good for the kind of
+            <a href="https://en.wikipedia.org/wiki/Monbukagakusho_Scholarship">scholarships</a> I&#39;m
+            hoping to apply for. So I started spending 10-ish or so hours a week, doing
+            college stuff- Maths, Networking and Databases.
+        </p>
+
+        <p>Outing: A marriage. At this point I can use all the change-of-scenery help I can get.
+        <p>Miscellaneous: finished Daredevil second season, set-up this blog, Hiragana practice,
+            <a href="https://www.youtube.com/watch?v=dfheqbqoGGg">Déjà Vu.</a>
+    </div>
+</body>
+
+</html>
