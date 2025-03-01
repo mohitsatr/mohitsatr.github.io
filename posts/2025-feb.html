@@ -31,7 +31,8 @@
         * @see &lt;a href="..."&gt;some description &lt;/a&gt;
         */</code>
         </pre>
-        <p> First <code>@see</code> Tag statement parses fine. In second one there is a parsing error because
+        <p> 
+        First <code>@see</code> Tag statement parses fine. In second one there is a parsing error because
             a white space is missing and description begins immediately after <code>a</code> closing Tag. Modifying the
             grammer for Javadoc to make whitespace optional did the
             job.
@@ -42,11 +43,12 @@
                 (htmlElement (WS | NEWLINE)* description?
                 | (reference | STRING)  (WS | NEWLINE)* ((WS | NEWLINE) description)?)</code>
             </pre>
-
+        </p>
+        <p>
         But it was not as obvious at first. the whole Antlr parsing stuff was new to me plus
         when messing around with grammer, things
         can quickly go downhill. So after lot of debugging and help from fellow
-        contributions and AIs I eventually had it working.
+        contributor, I eventually had it working.
         <br>
         For Gsoc, I'm interested to work on improving Checkstyle's coverage on Google-style java
         guidelines and on new OpenJdk java Style guidelines. I'll spending next few
@@ -85,9 +87,10 @@
             college stuff- Maths, Networking and Databases.
         </p>
 
-        <p>Outing: A marriage. At this point I can use all the change-of-scenery help I can get.
-        <p>Miscellaneous: finished Daredevil second season, set-up this blog, Hiragana practice,
+        <p>Miscellaneous: Some days ago, I attended a marriage. At this point I can use all the 
+          change-of-scenery I can get. Finished Daredevil second season, set-up this blog and 
             <a href="https://www.youtube.com/watch?v=dfheqbqoGGg">Déjà Vu.</a>
+        </p>
     </div>
 </body>
 
